@@ -80,4 +80,7 @@ body{
     .content{
         padding: 0 3rem 0 3rem;
     }
+    .header-content h1{
+        font-size: 3rem;
+    }
 }
