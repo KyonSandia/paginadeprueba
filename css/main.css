@@ -62,7 +62,7 @@ body{
 .btn{
     background: cornflowerblue;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 1rem 2rem;
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
@@ -73,9 +73,15 @@ body{
         padding: 0 3rem 0 3rem;
     }
     .header-content h1{
-        font-size: 2rem;
+        font-size: 3rem;
+        padding-bottom: 3rem;
     }
     .header-content p{
         font-size: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    .btn{
+        font-size: 2rem;
     }
 }
