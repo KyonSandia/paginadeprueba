@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf8">
 		<title>Pagina que te avisa si ya hay fecha oficial de Takagi San temporada 3</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
 		<link rel="stylesheet" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -12,12 +13,18 @@
 			<div class="header-overlay"></div>
 
 			<div class="header-content">
-				<h1>Página que te avisa si ya hay fecha oficial de Takagi San temporada 3</h1>
-				<p>AÚN NO</p>
+				<h1 class="maximizar">Página que te avisa si ya hay fecha oficial de Takagi San temporada 3</h1>
+				<p class="maximizar">AÚN NO</p>
 				<a href="https://www.facebook.com/P%C3%A1gina-que-te-avisa-si-ya-hay-fecha-oficial-de-Takagi-San-temporada-3-103479331629535" target="_blank" class="btn">Visita Nuestro Facebook
 				</a>
 			</div>
-
 		</header>
+		<script>
+			gsap.from(".maximizar",{
+				duration: 1,
+				y: 200,
+				scale: 0
+			});
+		</script>
 	</body>
 </html>
